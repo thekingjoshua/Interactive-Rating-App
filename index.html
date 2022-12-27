@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interactive Rating App</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body>
+		<div class="container" >
+			<div class="star__container">
+				<i class="fa fa-star"></i>
+			</div>
+			<div class="content">
+				<h2>How did we do?</h2>
+				<p>
+					Please let us know how we did with your support request. All feedback is appreciated to
+					help us improve our offering!
+				</p>
+				<div class="btn__container">
+					<button data-num="1">1</button>
+					<button data-num="2">2</button>
+					<button data-num="3">3</button>
+					<button data-num="4">4</button>
+					<button data-num="5">5</button>
+				</div>
+				<button class="submit_btn">SUBMIT</button>
+			</div>
+			<div class="rating__result hidden">
+				<img src="illustration-thank-you.svg" />
+				<p class="result">You selected 4 out of 5</p>
+				<h2>Thank you</h2>
+				<p>
+					Please let us know how we did with your support request. All feedback is appreciated to
+					help us improve our offering!
+				</p>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
